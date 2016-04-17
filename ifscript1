@@ -1,0 +1,10 @@
+#!/bin/bash
+#Nishanta's super cool script
+echo "Is your name nishanta"
+read ISNAME 
+if [ $ISNAME = "yes" ];
+then
+	echo "hello nishanta"
+else
+	echo "get lost"
+fi 
